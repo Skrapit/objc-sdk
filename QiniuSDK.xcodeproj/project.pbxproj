@@ -149,6 +149,7 @@
 		E3EE067C202EB67800018477 /* QNFormUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = DF609A031A58E39D00AC7297 /* QNFormUpload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3EE067D202EB67800018477 /* QNUpToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DF437CD71B2429E10099587B /* QNUpToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3EE067E202EB68300018477 /* QNPipeline.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEA5BFD1F27A21900D9D731 /* QNPipeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3EE0680202EB79B00018477 /* Qiniu.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EE067F202EB79B00018477 /* Qiniu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD4FEE441F298D58003A38B8 /* QNPipelineTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FEE431F298D58003A38B8 /* QNPipelineTest.m */; };
 		FD4FEE451F298D58003A38B8 /* QNPipelineTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FEE431F298D58003A38B8 /* QNPipelineTest.m */; };
 		FDEA5BFE1F27A21900D9D731 /* QNPipeline.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEA5BFD1F27A21900D9D731 /* QNPipeline.h */; };
@@ -251,6 +252,7 @@
 		E3EE062F202EA4F800018477 /* Qiniu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Qiniu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EE0632202EA4F800018477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3EE0638202EA54500018477 /* libPods-QiniuSDK_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-QiniuSDK_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3EE067F202EB79B00018477 /* Qiniu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qiniu.h; sourceTree = "<group>"; };
 		FD4FEE431F298D58003A38B8 /* QNPipelineTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNPipelineTest.m; sourceTree = "<group>"; };
 		FDEA5BFD1F27A21900D9D731 /* QNPipeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNPipeline.h; sourceTree = "<group>"; };
 		FDEA5BFF1F27A27700D9D731 /* QNPipeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNPipeline.m; sourceTree = "<group>"; };
@@ -480,6 +482,7 @@
 		E3EE0630202EA4F800018477 /* Qiniu */ = {
 			isa = PBXGroup;
 			children = (
+				E3EE067F202EB79B00018477 /* Qiniu.h */,
 				E3EE0632202EA4F800018477 /* Info.plist */,
 			);
 			path = Qiniu;
@@ -552,6 +555,7 @@
 				E3EE0665202EB5AC00018477 /* QiniuSDK.h in Headers */,
 				E3EE066D202EB67800018477 /* QNFileRecorder.h in Headers */,
 				E3EE0666202EB5CA00018477 /* QNALAssetFile.h in Headers */,
+				E3EE0680202EB79B00018477 /* Qiniu.h in Headers */,
 				E3EE066B202EB61E00018477 /* QNEtag.h in Headers */,
 				E3EE066C202EB62200018477 /* QNFile.h in Headers */,
 				E3EE0667202EB5D100018477 /* QN_GTM_Base64.h in Headers */,
